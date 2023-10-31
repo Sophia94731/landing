@@ -1,0 +1,43 @@
+.flex-container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid rgb(230,230,230);
+  border-radius: 3px;
+}
+
+.card h3 {
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+
+.card img {
+  width: 150px;
+}
+
+.card p {
+  opacity: 0.5;
+  color: black;
+  font-size: 0.5em;
+}
+
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
